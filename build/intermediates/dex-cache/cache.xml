@@ -21,6 +21,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/gavinlow/AndroidStudioProjects/PigGame2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="e523ed7490d7c7941a97d2ae6071c95e440c5fca">
+        <dex dex="/Users/gavinlow/AndroidStudioProjects/PigGame2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4b24f50369d46d3d96a5bd98412e9e2b1a198cf3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gavinlow/AndroidStudioProjects/PigGame2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="98c3c8de369ffc6405992181a6d3cbc1c6bcaaf9">
+        <dex dex="/Users/gavinlow/AndroidStudioProjects/PigGame2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_01a3de3fae31b4eefdf5d59f305b29d21730180c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/gavinlow/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
         jumboMode="true"
         optimize="true"

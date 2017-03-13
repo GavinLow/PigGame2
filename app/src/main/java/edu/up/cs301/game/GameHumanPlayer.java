@@ -293,11 +293,13 @@ public abstract class GameHumanPlayer implements GamePlayer, Tickable {
 					// checking that it's from our timer
 					timerTicked();
 				}
-				else {
+				else
+				{
 					receiveInfo(myInfo);
 				}
 			}
-			else {
+			else
+			{
 				// pass the state on to the subclass
 				receiveInfo(myInfo);
 			}
