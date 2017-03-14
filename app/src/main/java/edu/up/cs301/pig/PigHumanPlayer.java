@@ -77,11 +77,12 @@ public class PigHumanPlayer extends GameHumanPlayer implements OnClickListener {
         else
         {
             this.state = (PigGameState)info;
-            playerScoreTextView.setText(state.getP0Score());
-            oppScoreTextView.setText(state.getP1Score());
-            turnTotalTextView.setText(state.getRunningTotal());
+            playerScoreTextView.setText("" + state.getP0Score());
+            oppScoreTextView.setText("" + state.getP1Score());
+            turnTotalTextView.setText("" + state.getRunningTotal());
 
-            switch (state.getDieValue())
+            int faceCount = state.getDieValue();
+            switch (faceCount)
             {
                 case 1: dieImageButton.setImageResource(R.drawable.face1);
                         break;

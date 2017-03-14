@@ -3,29 +3,11 @@
 
     <item
         is-multidex="true"
-        jar="/Users/gavinlow/Downloads/CS371PigGameStarter-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="f2fdd3850d68b279a2fb23e211d58ae624341da9">
-        <dex dex="/Users/gavinlow/Downloads/CS371PigGameStarter-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d27062994007adecb67ea17815e1ad0ad0719ae7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/gavinlow/Downloads/CS371PigGameStarter-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="c90623d9fc62a74ed11def40424f78e8ede5f278">
-        <dex dex="/Users/gavinlow/Downloads/CS371PigGameStarter-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_898beff88bdcdec1724fb77da2d218496f87921d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/gavinlow/AndroidStudioProjects/PigGame2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="22.0.1"
-        sha1="e523ed7490d7c7941a97d2ae6071c95e440c5fca">
+        sha1="2f29e548ed00bfecefa2f3794457d82347983b5e">
         <dex dex="/Users/gavinlow/AndroidStudioProjects/PigGame2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4b24f50369d46d3d96a5bd98412e9e2b1a198cf3/classes.dex" />
     </item>
     <item
@@ -34,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="22.0.1"
-        sha1="98c3c8de369ffc6405992181a6d3cbc1c6bcaaf9">
+        sha1="0527c626b61bf1572decb31edf6778df4c030a19">
         <dex dex="/Users/gavinlow/AndroidStudioProjects/PigGame2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_01a3de3fae31b4eefdf5d59f305b29d21730180c/classes.dex" />
     </item>
     <item
@@ -44,7 +26,7 @@
         optimize="true"
         revision="22.0.1"
         sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="/Users/gavinlow/Downloads/CS371PigGameStarter-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_ab409bffa0abc66cdbfc0199fd0de9efa52d28f8/classes.dex" />
+        <dex dex="/Users/gavinlow/AndroidStudioProjects/PigGame2/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_ab409bffa0abc66cdbfc0199fd0de9efa52d28f8/classes.dex" />
     </item>
 
 </items>
