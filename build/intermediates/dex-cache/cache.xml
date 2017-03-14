@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="22.0.1"
-        sha1="2f29e548ed00bfecefa2f3794457d82347983b5e">
+        sha1="3a95dea45f9275d5f470f0e8c9433cd482fa2b97">
         <dex dex="/Users/gavinlow/AndroidStudioProjects/PigGame2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4b24f50369d46d3d96a5bd98412e9e2b1a198cf3/classes.dex" />
     </item>
     <item
@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="22.0.1"
-        sha1="0527c626b61bf1572decb31edf6778df4c030a19">
+        sha1="d5484ee02ae567533e15dde94a7c73ed3621216c">
         <dex dex="/Users/gavinlow/AndroidStudioProjects/PigGame2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_01a3de3fae31b4eefdf5d59f305b29d21730180c/classes.dex" />
     </item>
     <item

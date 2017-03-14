@@ -66,42 +66,40 @@ public class PigHumanPlayer extends GameHumanPlayer implements OnClickListener {
     @Override
     public void receiveInfo(GameInfo info)
     {
-        if(info instanceof IllegalMoveInfo || info instanceof NotYourTurnInfo)
-        {
-            flash(Color.RED, 50);
-        }
-        else if(!(info instanceof PigGameState))
-        {
-            return;
-        }
-        else
+        if(info instanceof PigGameState)
         {
             this.state = (PigGameState)info;
             playerScoreTextView.setText("" + state.getP0Score());
             oppScoreTextView.setText("" + state.getP1Score());
             turnTotalTextView.setText("" + state.getRunningTotal());
-
             int faceCount = state.getDieValue();
-            switch (faceCount)
+            if(faceCount == 1)
             {
-                case 1: dieImageButton.setImageResource(R.drawable.face1);
-                        break;
-
-                case 2: dieImageButton.setImageResource(R.drawable.face2);
-                        break;
-
-                case 3: dieImageButton.setImageResource(R.drawable.face3);
-                        break;
-
-                case 4: dieImageButton.setImageResource(R.drawable.face4);
-                        break;
-
-                case 5: dieImageButton.setImageResource(R.drawable.face5);
-                        break;
-
-                case 6: dieImageButton.setImageResource(R.drawable.face6);
-                        break;
+                dieImageButton.setImageResource(R.drawable.face1);
             }
+            else if(faceCount == 2)
+            {
+                dieImageButton.setImageResource(R.drawable.face2);
+            }
+            else if(faceCount == 3)
+            {
+                dieImageButton.setImageResource(R.drawable.face3);
+            }
+            else if(faceCount == 4)
+            {
+                dieImageButton.setImageResource(R.drawable.face4);
+            }
+            else if(faceCount == 5)
+            {
+                dieImageButton.setImageResource(R.drawable.face5);
+            }
+            else if(faceCount == 6)
+            {
+                dieImageButton.setImageResource(R.drawable.face6);
+            }
+        }else
+        {
+            this.flash(Color.BLUE, 500);
         }
     }//receiveInfo
 

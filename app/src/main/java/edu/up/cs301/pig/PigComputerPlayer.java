@@ -33,9 +33,14 @@ public class PigComputerPlayer extends GameComputerPlayer {
      * @param info
      * 		the information (presumably containing the game's state)
      */
+
+    /*
+    //Normal AI
     @Override
     protected void receiveInfo(GameInfo info)
     {
+        sleep(500);
+
         if(info instanceof NotYourTurnInfo)
         {
             return;
@@ -43,6 +48,7 @@ public class PigComputerPlayer extends GameComputerPlayer {
 
         savedState = (PigGameState)info;
 
+        sleep(1000);
         double action = Math.random();
         if(action < 0.5)
         {
@@ -54,5 +60,29 @@ public class PigComputerPlayer extends GameComputerPlayer {
         }
 
     }//receiveInfo
+
+    */
+    //Hard AI
+    @Override
+    protected void receiveInfo(GameInfo info)
+    {
+        sleep(500);
+        if(info instanceof NotYourTurnInfo)
+        {
+            return;
+        }
+        PigGameState p = (PigGameState)info;
+        PigRollAction rollAction = new PigRollAction(this);
+        game.sendAction(rollAction);
+        if(p.getRunningTotal() >= 10)
+        {
+            PigHoldAction holdAction = new PigHoldAction(this);
+            game.sendAction(holdAction);
+        }else
+        {
+            game.sendAction(rollAction);
+        }
+    }//receiveInfo
+
 
 }
